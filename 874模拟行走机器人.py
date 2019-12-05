@@ -1,1 +1,2 @@
 def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
+    return True
