@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3251a819-b149-4517-a541-5153f4b06240" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/874模拟行走机器人.py" beforeDir="false" afterPath="$PROJECT_DIR$/874模拟行走机器人.py" afterDir="false" />
-    </list>
+    <list default="true" id="3251a819-b149-4517-a541-5153f4b06240" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575442824356</updated>
       <workItem from="1575442825899" duration="9477000" />
-      <workItem from="1575509792730" duration="7441000" />
+      <workItem from="1575509792730" duration="7815000" />
     </task>
     <servers />
   </component>
