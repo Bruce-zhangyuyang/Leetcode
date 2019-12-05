@@ -9,6 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ProjectId" id="1UVXdf7I4FI83SK9MIkfQKZt32d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -110,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575442824356</updated>
       <workItem from="1575442825899" duration="9477000" />
-      <workItem from="1575509792730" duration="6830000" />
+      <workItem from="1575509792730" duration="7418000" />
     </task>
     <servers />
   </component>
