@@ -1,5 +1,6 @@
 from typing import List
 
+#思路： 找所有数的个数的公因数
 
 def hasGroupsSizeX(deck: List[int]) -> bool:
     if len(deck)<=1 : return False

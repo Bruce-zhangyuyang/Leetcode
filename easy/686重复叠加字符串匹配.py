@@ -5,7 +5,7 @@
 #         if len(C)>10000:
 #             return -1
 #         if B in C: return i
-
+# 思路： 首先变换后的A的长度要大于B 并且A包含B 不用重复多次 num有0的可能 所以最多在C的基础上加上两个A进行判断即可
 def repeatedStringMatch(self, A: str, B: str) -> int:
     num = len(B)//len(A)
     C = A*num

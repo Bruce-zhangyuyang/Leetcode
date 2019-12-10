@@ -1,5 +1,6 @@
 from typing import List
 
+# 思路1： 寻找一个数后面比他小的数的位置 以及前面比他大的数的位置 最后将最后面的位置 减去最前面的位置
 
 # def findUnsortedSubarray(nums: List[int]) -> int:
 #     s = []
@@ -20,6 +21,8 @@ from typing import List
 #         return (max(s) - min(s) + 1)
 #     else:
 #         return 0
+
+# 思路2： 生成一张排序的表 然后与原表对比 记录不同的位置编号 直接最大的减去最小的
 
 def findUnsortedSubarray(self, nums: List[int]) -> int:
     s = []

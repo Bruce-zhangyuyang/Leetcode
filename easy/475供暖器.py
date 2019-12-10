@@ -1,5 +1,7 @@
 from typing import List
 
+# 思路1： 如果只有一个供暖期 就找这个供暖器离房子哪边最远 直接输出距离
+#         不然 就找出来 所有内部的最远的距离 然后再从最远的距离里面找最小的（离最远的最近）
 
 # def findRadius(houses: List[int], heaters: List[int]) -> int:
 #     if len(heaters) == 1:
@@ -28,6 +30,7 @@ from typing import List
 #             srt = dist
 #     return srt
 
+# 思路2： 先找每个房子最近的供暖器 然后再再所有距离中找最大的
 
 def findRadius(houses: List[int], heaters: List[int]) -> int:
     set_ = []

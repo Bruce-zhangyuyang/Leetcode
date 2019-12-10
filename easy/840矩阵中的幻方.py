@@ -1,4 +1,6 @@
 from typing import List
+# 如果grid小于3*3 直接返回0
+# 否则看9个数中是否在【1，9】中 并且没有重复值 并且第一行、第一列、对角线的三个和相等
 def numMagicSquaresInside(grid: List[List[int]]) -> int:
     if len(grid) <3 or len(grid[0])<3 : return 0
     num = 0

@@ -1,4 +1,7 @@
 from typing import List
+
+#思路： 先把所有障碍物的位置存入字典，然后机器人走路 ，查看路线中是否存在障碍物
+
 def robotSim(commands: List[int], obstacles: List[List[int]]) -> int:
     loc = [['y', 1], ['x', 1], ['y', -1], ['x', -1]]
     x= 0

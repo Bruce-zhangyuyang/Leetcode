@@ -1,3 +1,5 @@
+# 思路： 从0到c的平方根之间，寻找是否是两个数的平方和
+
 def judgeSquareSum(c: int) -> bool:
     if c == 0: return True
     for i in range(int(c**0.5)+1):

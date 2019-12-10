@@ -13,6 +13,8 @@ from typing import List
 #                 num += 1
 #     return num
 
+# 思路1：如果列表中个数小于2 或者差的绝对值小于0 则返回0
+#        否则就将列表中本元素删除 然后找到符合条件的 并且对没有出现过的排列进行计数 最后+1除以2取整
 
 # def findPairs(nums: List[int], k: int) -> int:
 #     if len(nums) < 2 or k < 0: return 0
@@ -35,6 +37,8 @@ from typing import List
 #                 dict_[nums[i]].append(nums[i]-k)
 #     print(dict_)
 #     return (num_+1)//2
+
+# 思路： 寻找所有满足条件的数字，并且将满足条件的两个数字中大的 添加到b
 
 def findPairs(nums: List[int], k: int) -> int:
     if len(nums) < 2 or k < 0: return 0
