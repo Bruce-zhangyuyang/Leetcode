@@ -1,6 +1,6 @@
 from typing import List
 # 思路1： 找到所有种花的位置 如果没有种花 则（整个花坛长度+1）//2 然后与所需种的花的个数进行比较
-        如果已经种花，则先把最前面以及最后面能够种的花的个数统计出来，然后
+#         如果已经种花，则先把最前面以及最后面能够种的花的个数统计出来，然后
 
 def canPlaceFlowers(flowerbed: List[int], n: int) -> bool:
     loc = [k for k,v in enumerate(flowerbed) if v ==1]
